@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import { User } from "./model/user.js";
 
-// Load environment variables from .env file
+
 dotenv.config();
 
 const app = express();

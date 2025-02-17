@@ -5,7 +5,11 @@ const users = [
         email: "sarthaksthapit0@gmail.com",
     },
     {
+<<<<<<< HEAD
         id: 2,
+=======
+        id: 2, 
+>>>>>>> 006849f (Add files via upload)
         name: "Sakshyam Paneru",
         email: "sxm@gmail.com",
     },
