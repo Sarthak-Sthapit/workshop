@@ -1,0 +1,17 @@
+{
+  "ext": "ts,json",
+  "watch": ["src", ".env"],
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "dist"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "execMap": {
+    "ts": "node --no-warnings --loader ts-node/esm --env-file .env"
+  }
+}
